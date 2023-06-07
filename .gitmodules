@@ -1,0 +1,3 @@
+[submodule "ScribbleShare/vendor/glfw"]
+	path = ScribbleShare/vendor/glfw
+	url = https://github.com/glfw/glfw.git
