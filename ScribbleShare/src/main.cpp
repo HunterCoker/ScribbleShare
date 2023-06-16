@@ -1,11 +1,11 @@
 #include "Application.h"
 
 const char* title = "ScribbleShare";
-int width = 1280;
-int height = 720;
+int width = 320;
+int height = 180;
 
 int main(int argc, char* argv[]) {
-	Application app(title, width, height);
-	app.Run();
+	Application* app = Application::GetInstance();
+	app->Run(title, width, height);
 	return 0;
 }

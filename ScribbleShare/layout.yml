@@ -1,0 +1,31 @@
+fixed:
+  - background:
+    atlas_location: [250, 0, 444, 250]
+    window_location: [0, 0, 320, 180]
+  - logo_inset:
+    atlas_location: [0, 100, 50, 50]
+    window_location: [1, 1, 28, 28]
+  - palette_inset:
+    atlas_location: [0, 150, 200, 50]
+    window_location: [30, 1, 112, 28]
+  - friend_inset:
+    atlas_location: [0, 200, 207, 50]
+    window_location: [143, 1, 116, 28]
+  - logo:
+    atlas_location: [0, 0, 50, 50]
+    window_location: [1, 1, 28, 28]
+  - canvas:
+    atlas_location: [0, 250, 429, 200]
+    window_location: [1, 31, 318, 148]
+button:
+  - eraser:
+    atlas_location: [0, 0, 0, 0]
+    window_location: [0, 0, 0, 0]
+  - delete:
+    atlas_location: [0, 0, 0, 0]
+    window_location: [0, 0, 0, 0]
+  - notify:
+    atlas_location: [0, 0, 0, 0]
+    window_location: [0, 0, 0, 0]
+status:
+  - linked_friend: false
